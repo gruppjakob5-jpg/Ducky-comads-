@@ -1,0 +1,16 @@
+REM --- Matrix Effekt für MelounczYT ---
+DELAY 1000
+GUI r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 500
+STRING color a
+ENTER
+STRING mode con: cols=100 lines=30
+ENTER
+STRING cls
+ENTER
+REM --- Endlosschleife für den Matrix-Effekt ---
+STRING for /l %i in (0,0,1) do @echo %random% %random% %random% %random% %random% %random% %random% %random%
+ENTER
